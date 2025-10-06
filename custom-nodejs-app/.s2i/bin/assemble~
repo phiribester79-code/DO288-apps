@@ -1,6 +1,10 @@
 #!/bin/bash
 
+DATE=$(date +"%Y-%m-%d")
+
 echo "Custom Assemble Running"
 echo "Installing application dependencies"
 npm install
-echo "Assemble complete"
+echo "Assemble complete on $DATE"
+
+
