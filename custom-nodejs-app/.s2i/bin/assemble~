@@ -1,5 +1,10 @@
 #!/bin/bash
 
+mkdir -p /opt/app-root/src
+cp -r/tm/src/. /opt/app-root/src
+
+cd /opt/app-root/src
+
 DATE=$(date +"%Y-%m-%d")
 
 echo "Custom Assemble Running"
