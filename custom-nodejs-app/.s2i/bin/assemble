@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Custom Assemble Running"
+echo "Installing application dependencies"
+npm install
+echo "Assemble complete"
